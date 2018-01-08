@@ -22,6 +22,9 @@ _Please have a look at the [CorteXlab Wiki](https://wiki.cortexlab.fr) to have a
 
 ## Directory tree
 
+There is two main directories :
+- 'fpga' : contains all HDL libraries such as vhdl source code, testbench and simulation files
+- 'design' : contains ISE and XPS _(and, in the future, Matlab)_ projects using the libraries in 'fpga' directory
 This repository is currently organized as following :
 
 ```shell
@@ -56,9 +59,8 @@ This repository is currently organized as following :
 ¦    + ieee802_15_4_tx3_v1_00_a
 ¦    + ieee802_15_4_tx12_v1_00_a
 ¦    + options_switch_v1_00_b
-+- .gitattributes
-+- .gitignore
-+- LICENSE (encore vide)
-+- README.md
 ```
 
+## License
+
+See the LICENSE file for license rights and limitations
