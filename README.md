@@ -18,14 +18,15 @@ _Please have a look at the [CorteXlab Wiki](https://wiki.cortexlab.fr) to have a
 - Windows 7, 64 bits and 10 GB of RAM
 - Nutaq ADP software tool _(have a look at Nutaq [software architecture](https://www.nutaq.com/blog/nutaqs-adp-software-architecture))
 - Xilinx ISE 13.4 with Xilinx Platform Studio for FPGA VHDL design
-- Optional : MATLAB R2011b for FPGA model based design (MBDK layer. _In the future_)
+- Optional : MATLAB R2011b + Simulink for FPGA model based design (MBDK layer. _In the future_)
 
 ## Directory tree
 
 There is two main directories :
 - 'fpga' : contains all HDL libraries such as vhdl source code, testbench and simulation files
-- 'design' : contains ISE and XPS _(and, in the future, Matlab)_ projects using the libraries in 'fpga' directory
-This repository is currently organized as following :
+- 'design' : contains ISE and XPS _(and, in the future, Matlab)_ projects using the 'fpga' libraries and Nutaq ADP software tools. 
+
+Currently, this repository looks as following :
 
 ```shell
 +- fpga
