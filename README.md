@@ -21,42 +21,43 @@ _Please have a look at the [CorteXlab Wiki](wiki.cortexlab.fr) to have access to
 
 ## Directory tree
 
-This Git is currently organized as following :
+This repository is currently organized as following :
 
 ```shell
 +- fpga
-¦    + ieee802_15_4_rx3_v1_00_a
-¦    ¦   + data
-¦    ¦   + doc
-¦    ¦   + hdl
-¦    ¦   ¦   + simulation
-¦    ¦   ¦   + testbench
-¦    ¦   ¦   + vhdl
-¦    ¦   ¦   ¦   + (VHDL source code)
-¦    ¦   + simulation
-¦    ¦   + testbench
-¦    + ieee802_15_4_rx12_v1_00_a
-¦    + ieee802_15_4_tx3_v1_00_a
-¦    + ieee802_15_4_tx12_v1_00_a
-¦    + options_switch_v1_00_b
-¦    + rtdex_rx_if_v1_00_a
-¦    + rtdex_tx_if_v1_00_a
-¦     ...
-¦
+Â¦    + ieee802_15_4_rx3_v1_00_a
+Â¦    Â¦   + data
+Â¦    Â¦   + doc
+Â¦    Â¦   + hdl
+Â¦    Â¦   Â¦   + simulation
+Â¦    Â¦   Â¦   + testbench
+Â¦    Â¦   Â¦   + vhdl
+Â¦    Â¦   Â¦   Â¦   + (VHDL source code)
+Â¦    Â¦   + simulation
+Â¦    Â¦   + testbench
+Â¦    + ieee802_15_4_rx12_v1_00_a
+Â¦    + ieee802_15_4_tx3_v1_00_a
+Â¦    + ieee802_15_4_tx12_v1_00_a
+Â¦    + options_switch_v1_00_b
+Â¦    + rtdex_rx_if_v1_00_a
+Â¦    + rtdex_tx_if_v1_00_a
+Â¦     ...
+Â¦
 +- design
-¦    + ieee802_15_4_rx3_v1_00_a
-¦    ¦   + host
-¦    ¦   + xilinx
-¦    ¦   ¦   + ise
-¦    ¦   ¦   ¦   + (Xilinx ISE compatible project)
-¦    ¦   ¦   + xps 
-¦    ¦   ¦   ¦   + (XPS compatible project)
-¦    + ieee802_15_4_rx12_v1_00_a
-¦    + ieee802_15_4_tx3_v1_00_a
-¦    + ieee802_15_4_tx12_v1_00_a
-¦    + options_switch_v1_00_b
+Â¦    + ieee802_15_4_rx3_v1_00_a
+Â¦    Â¦   + host
+Â¦    Â¦   + xilinx
+Â¦    Â¦   Â¦   + ise
+Â¦    Â¦   Â¦   Â¦   + (Xilinx ISE compatible project)
+Â¦    Â¦   Â¦   + xps 
+Â¦    Â¦   Â¦   Â¦   + (XPS compatible project)
+Â¦    + ieee802_15_4_rx12_v1_00_a
+Â¦    + ieee802_15_4_tx3_v1_00_a
+Â¦    + ieee802_15_4_tx12_v1_00_a
+Â¦    + options_switch_v1_00_b
 +- .gitattributes
 +- .gitignore
 +- LICENSE (encore vide)
 +- README.md
 ```
+
