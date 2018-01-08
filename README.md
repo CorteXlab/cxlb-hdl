@@ -9,8 +9,8 @@
 
 ### Hardware
 
-- PicoSDR nodes (2x2 and 4x4) within the CorteXlab testbed. 
-_Please have a look at the [CorteXlab Wiki](wiki.cortexlab.fr) to have access to the Awesome and totally free testbed. _
+- PicoSDR nodes (2x2 and 4x4) within the CorteXlab testbed.
+_Please have a look at the [CorteXlab Wiki](https://wiki.cortexlab.fr) to have access to the Awesome and totally free testbed._
 
 ### Software
 
