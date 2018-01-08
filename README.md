@@ -2,8 +2,7 @@
 
 ## Overview
 
-- Here you can find all HDL resources, mainly Xilinx ISE and Xilinx Platform Studio (XPS) projects along with IPs written in VHDL targeting [PicoSDR](https://www.nutaq.com/products/picosdr) devices from Nutaq.
-- FPGA target : Virtex-6 (Xilinx ML605).
+- Here you can find all CorteXlab HDL resources, mainly Xilinx ISE and Xilinx Platform Studio (XPS) projects along with IPs written in VHDL targeting [PicoSDR](https://www.nutaq.com/products/picosdr) devices from Nutaq _(FPGA target : Virtex-6)_
 
 ## Requirements
 
@@ -24,7 +23,7 @@ _Please have a look at the [CorteXlab Wiki](https://wiki.cortexlab.fr) to have a
 
 There is two main directories :
 - 'fpga' : contains all HDL libraries such as vhdl source code, testbench and simulation files
-- 'design' : contains ISE and XPS _(and, in the future, Matlab)_ projects using the 'fpga' libraries and Nutaq ADP software tools. 
+- 'design' : contains ISE and XPS _(and, in the future, Simulink)_ projects using the 'fpga' libraries and Nutaq ADP software tools. 
 
 Currently, this repository looks as following :
 
