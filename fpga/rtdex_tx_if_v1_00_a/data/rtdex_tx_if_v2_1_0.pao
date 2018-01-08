@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          C:\Nutaq\ADP6\ADP_MicroTCA\examples_perseus6010\Host_FPGA_LoopBack_DT002_RTDEx_3FiFo_TxIEEE802154\edk_gige\pcores/rtdex_tx_if_v1_00_a/data/rtdex_tx_if_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Sep 16 15:34:20 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib rtdex_tx_if_v1_00_a rtdex_tx_if vhdl

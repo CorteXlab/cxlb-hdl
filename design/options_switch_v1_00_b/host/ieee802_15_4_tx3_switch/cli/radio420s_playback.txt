@@ -1,0 +1,40 @@
+shell echo Connecting...
+connect 192.168.0.101
+shell echo ram_init
+ram_init
+shell echo Radio420S initialization
+
+fmcradio_powerup
+
+fmcradio_select 1
+fmcradio_setrevision SDR_D
+fmcradio_reset
+fmcradio_pll 30720000 40960000 30720000
+fmcradio_pll_lock
+
+fmcradio_select 1
+write 0x85000008 0
+fmcradio_band low
+fmcradio_filter BYPASS
+fmcradio_rx 0 -5
+fmcradio_tx -17 5 -4
+fmcradio_lpf rx 2.5MHZ
+fmcradio_lpf tx 2.5MHZ
+fmcradio_lpfcalibrate tx 40960000
+fmcradio_lime_pll tx 30720000 943000000
+fmcradio_lime_pll rx 30720000 944000000
+fmcradio_rxvga_calibrate
+fmcradio_rxdcoffset_calibrate
+fmcradio_lpfcalibrate rx 40960000
+fmcradio_rxdcoffset_calibrate
+
+shell echo Transmitting data...
+write 0x7000001C 5
+ram_put ../../bin/radio420s_record_data.bin 0 0 1024
+shell echo Transfer done!
+pause
+shell echo Playback...
+recplay_playback_continuous 1048576 0
+pause
+ram_init
+shell echo DONE

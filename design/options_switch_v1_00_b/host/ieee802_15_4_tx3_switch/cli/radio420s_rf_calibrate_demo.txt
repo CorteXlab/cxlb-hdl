@@ -1,0 +1,52 @@
+shell echo Connecting...
+connect 192.168.0.101
+
+fmcradio_powerup
+
+fmcradio_select 1
+fmcradio_setrevision SDR_D
+fmcradio_reset
+fmcradio_pll 30720000 40960000 30720000
+fmcradio_pll_lock
+
+write 0x85000008 0
+fmcradio_band low
+fmcradio_filter BYPASS
+fmcradio_rx 0 -5
+fmcradio_tx -17 5 -4
+fmcradio_lpf rx 2.5MHZ
+fmcradio_lpf tx 2.5MHZ
+fmcradio_lpfcalibrate tx 40960000 
+fmcradio_lime_pll tx 30720000 943000000
+fmcradio_lime_pll rx 30720000 944000000
+fmcradio_rxvga_calibrate
+fmcradio_rxdcoffset_calibrate
+fmcradio_lpfcalibrate rx 40960000 
+fmcradio_rxdcoffset_calibrate
+
+shell echo Setting DDS for 1 MHz tone
+write 0x70000018 209715200
+write 0x7000001c 0x1
+
+shell echo 943 MHZ with no calibration "Check the signal with a spectrum analyser"
+pause
+shell echo  ... Calibrating FMC Radio: Please wait ...
+shell echo       - LO Leakage ...
+fmcradio_select 1
+fmcradio_loleakage_calibrate 943000000 40960000 
+shell echo       - SSB ...
+fmcradio_ssb_calibrate 943000000 40960000 
+shell echo       - Reconfiguring radio ...
+fmcradio_pll 30720000 40960000 30720000
+fmcradio_pll_lock
+fmcradio_rx 0 -5
+fmcradio_tx -17 5 -4
+fmcradio_lime_pll rx 30720000 944000000
+fmcradio_rxvga_calibrate
+fmcradio_rxdcoffset_calibrate
+fmcradio_lpfcalibrate rx 40960000 
+fmcradio_rxdcoffset_calibrate
+
+shell echo 943 MHZ with rf calibration "Trigger chipscope acquisition or check the signal with a spectrum analyser"
+pause
+

@@ -1,0 +1,57 @@
+HDL language for the peripheral (top level) design unit rtdex_rx_if is vhdl ...
+INFO:EDK:3391 - Create temporary xst project file:
+   C:\Nutaq\ADP6\ADP_MicroTCA\examples_perseus6010\Host_FPGA_LoopBack_DT002_RTDE
+   x_3FiFo_TxIEEE802154\edk_gige\pcores/rtdex_rx_if.prj
+Compiling vhdl file "C:/fwspace/RTDEx/rtdex_txrx_if_v0.1/rtdex_rx_if.vhd" in
+Library rtdex_rx_if_v1_00_a.
+Entity <rtdex_rx_if> compiled.
+Entity <rtdex_rx_if> (Architecture <rtl>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = rtdex_rx_if
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+WARNING:EDK:3590 - Unable to delete temporary project file
+   C:\Nutaq\ADP6\ADP_MicroTCA\examples_perseus6010\Host_FPGA_LoopBack_DT002_RTDE
+   x_3FiFo_TxIEEE802154\edk_gige\pcores\rtdex_rx_if.prj : 13
+INFO:EDK:1951 - No SIGIS=CLK specified for probable Clock signal i_Clk
+INFO:EDK:1953 - No SIGIS=RST specified for probable Reset signal i_Rst
+INFO:EDK:1951 - No SIGIS=CLK specified for probable Clock signal i_Clk
+INFO:EDK:1953 - No SIGIS=RST specified for probable Reset signal i_Rst
+Copying file rtdex_rx_if.vhd to
+C:\Nutaq\ADP6\ADP_MicroTCA\examples_perseus6010\Host_FPGA_LoopBack_DT002_RTDEx_3
+FiFo_TxIEEE802154\edk_gige\pcores/rtdex_rx_if_v1_00_a/hdl/vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+C:\Nutaq\ADP6\ADP_MicroTCA\examples_perseus6010\Host_FPGA_LoopBack_DT002_RTDEx_3
+FiFo_TxIEEE802154\edk_gige\pcores\rtdex_rx_if_v1_00_a.
+
+Summary:
+
+  Logical library     : rtdex_rx_if_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : None
+
+The following sub-directories will be created:
+
+  - rtdex_rx_if_v1_00_a\data
+  - rtdex_rx_if_v1_00_a\hdl
+  - rtdex_rx_if_v1_00_a\hdl\verilog
+  - rtdex_rx_if_v1_00_a\hdl\vhdl
+
+
+The following HDL source files will be copied into the
+rtdex_rx_if_v1_00_a\hdl\vhdl directory:
+
+  - rtdex_rx_if.vhd
+
+The following files will be created under the rtdex_rx_if_v1_00_a\data
+directory:
+
+  - rtdex_rx_if_v2_1_0.mpd
+  - rtdex_rx_if_v2_1_0.pao
+
+

@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          C:\Nutaq\ADP6\ADP_MicroTCA\default_examples_perseus6010\PicoSDR_Tx3IEEE802154_V16_07_14\Switch_usf8_HFGen_V002\pcores/ieee802_15_4_options_switch_v1_00_b/data/ieee802_15_4_options_switch_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Aug 04 13:26:55 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib ieee802_15_4_options_switch_v1_00_b ieee802_15_4_options_switch vhdl
