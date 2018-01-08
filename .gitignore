@@ -65,5 +65,6 @@ webtalk_pn.xml
 iseconfig/
 xlnx_auto_0_xdb/
 xst/
+xst_ut/
 _ngo/
 _xmsgs/
